@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/TTW.dir/TTW.cpp.o CMakeFiles/TTW.dir/TTW_module.cpp.o -o TTW  flecs-master/libflecs_static.a -lpthread 

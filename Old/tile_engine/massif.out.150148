@@ -1,0 +1,881 @@
+desc: (none)
+cmd: ./main
+time_unit: i
+#-----------
+snapshot=0
+#-----------
+time=0
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=1
+#-----------
+time=148064394
+mem_heap_B=1412949
+mem_heap_extra_B=36467
+mem_stacks_B=0
+heap_tree=detailed
+n12: 1412949 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 472368 0x52FB8E6: ??? (in /usr/lib/x86_64-linux-gnu/libX11.so.6.4.0)
+  n1: 472368 0x52FBFCD: _XimLocalOpenIM (in /usr/lib/x86_64-linux-gnu/libX11.so.6.4.0)
+   n1: 472368 0x52F39FF: _XimOpenIM (in /usr/lib/x86_64-linux-gnu/libX11.so.6.4.0)
+    n1: 472368 0x4983345: ??? (in /usr/lib/x86_64-linux-gnu/libSDL2-2.0.so.0.18.2)
+     n1: 472368 0x498AAFC: ??? (in /usr/lib/x86_64-linux-gnu/libSDL2-2.0.so.0.18.2)
+      n1: 472368 0x495C88D: ??? (in /usr/lib/x86_64-linux-gnu/libSDL2-2.0.so.0.18.2)
+       n1: 472368 0x48BC426: ??? (in /usr/lib/x86_64-linux-gnu/libSDL2-2.0.so.0.18.2)
+        n0: 472368 0x10CA81: main (main.cpp:25)
+ n1: 397824 0x6F490C6: ??? (in /usr/lib/x86_64-linux-gnu/libGLX_mesa.so.0.0.0)
+  n2: 397824 0x6F4A09B: ??? (in /usr/lib/x86_64-linux-gnu/libGLX_mesa.so.0.0.0)
+   n1: 263424 0x6F4A34D: ??? (in /usr/lib/x86_64-linux-gnu/libGLX_mesa.so.0.0.0)
+    n1: 263424 0x6F590B0: ??? (in /usr/lib/x86_64-linux-gnu/libGLX_mesa.so.0.0.0)
+     n1: 263424 0x6F4A880: ??? (in /usr/lib/x86_64-linux-gnu/libGLX_mesa.so.0.0.0)
+      n1: 263424 0x6F45FC7: ??? (in /usr/lib/x86_64-linux-gnu/libGLX_mesa.so.0.0.0)
+       n1: 263424 0x4986B2C: ??? (in /usr/lib/x86_64-linux-gnu/libSDL2-2.0.so.0.18.2)
+        n1: 263424 0x4986F0C: ??? (in /usr/lib/x86_64-linux-gnu/libSDL2-2.0.so.0.18.2)
+         n1: 263424 0x495DE3B: ??? (in /usr/lib/x86_64-linux-gnu/libSDL2-2.0.so.0.18.2)
+          n1: 263424 0x495C035: ??? (in /usr/lib/x86_64-linux-gnu/libSDL2-2.0.so.0.18.2)
+           n1: 263424 0x495CB60: ??? (in /usr/lib/x86_64-linux-gnu/libSDL2-2.0.so.0.18.2)
+            n1: 263424 0x48BC426: ??? (in /usr/lib/x86_64-linux-gnu/libSDL2-2.0.so.0.18.2)
+             n0: 263424 0x10CA81: main (main.cpp:25)
+   n1: 134400 0x6F4A28C: ??? (in /usr/lib/x86_64-linux-gnu/libGLX_mesa.so.0.0.0)
+    n1: 134400 0x6F590B0: ??? (in /usr/lib/x86_64-linux-gnu/libGLX_mesa.so.0.0.0)
+     n1: 134400 0x6F4A880: ??? (in /usr/lib/x86_64-linux-gnu/libGLX_mesa.so.0.0.0)
+      n1: 134400 0x6F45FC7: ??? (in /usr/lib/x86_64-linux-gnu/libGLX_mesa.so.0.0.0)
+       n1: 134400 0x4986B2C: ??? (in /usr/lib/x86_64-linux-gnu/libSDL2-2.0.so.0.18.2)
+        n1: 134400 0x4986F0C: ??? (in /usr/lib/x86_64-linux-gnu/libSDL2-2.0.so.0.18.2)
+         n1: 134400 0x495DE3B: ??? (in /usr/lib/x86_64-linux-gnu/libSDL2-2.0.so.0.18.2)
+          n1: 134400 0x495C035: ??? (in /usr/lib/x86_64-linux-gnu/libSDL2-2.0.so.0.18.2)
+           n1: 134400 0x495CB60: ??? (in /usr/lib/x86_64-linux-gnu/libSDL2-2.0.so.0.18.2)
+            n1: 134400 0x48BC426: ??? (in /usr/lib/x86_64-linux-gnu/libSDL2-2.0.so.0.18.2)
+             n0: 134400 0x10CA81: main (main.cpp:25)
+ n0: 163320 in 290 places, all below massif's threshold (1.00%)
+ n1: 72704 0x4AD9979: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+  n1: 72704 0x400647D: call_init.part.0 (dl-init.c:70)
+   n1: 72704 0x4006567: call_init (dl-init.c:33)
+    n1: 72704 0x4006567: _dl_init (dl-init.c:117)
+     n0: 72704 0x40202E9: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+ n2: 67200 0x52C2210: XOpenDisplay (in /usr/lib/x86_64-linux-gnu/libX11.so.6.4.0)
+  n1: 33600 0x4989E7D: ??? (in /usr/lib/x86_64-linux-gnu/libSDL2-2.0.so.0.18.2)
+   n1: 33600 0x495CA48: ??? (in /usr/lib/x86_64-linux-gnu/libSDL2-2.0.so.0.18.2)
+    n1: 33600 0x48BC426: ??? (in /usr/lib/x86_64-linux-gnu/libSDL2-2.0.so.0.18.2)
+     n0: 33600 0x10CA81: main (main.cpp:25)
+  n1: 33600 0x4989EF6: ??? (in /usr/lib/x86_64-linux-gnu/libSDL2-2.0.so.0.18.2)
+   n1: 33600 0x495CA48: ??? (in /usr/lib/x86_64-linux-gnu/libSDL2-2.0.so.0.18.2)
+    n1: 33600 0x48BC426: ??? (in /usr/lib/x86_64-linux-gnu/libSDL2-2.0.so.0.18.2)
+     n0: 33600 0x10CA81: main (main.cpp:25)
+ n1: 52488 0x52FB627: ??? (in /usr/lib/x86_64-linux-gnu/libX11.so.6.4.0)
+  n1: 52488 0x52FBFCD: _XimLocalOpenIM (in /usr/lib/x86_64-linux-gnu/libX11.so.6.4.0)
+   n1: 52488 0x52F39FF: _XimOpenIM (in /usr/lib/x86_64-linux-gnu/libX11.so.6.4.0)
+    n1: 52488 0x4983345: ??? (in /usr/lib/x86_64-linux-gnu/libSDL2-2.0.so.0.18.2)
+     n1: 52488 0x498AAFC: ??? (in /usr/lib/x86_64-linux-gnu/libSDL2-2.0.so.0.18.2)
+      n1: 52488 0x495C88D: ??? (in /usr/lib/x86_64-linux-gnu/libSDL2-2.0.so.0.18.2)
+       n1: 52488 0x48BC426: ??? (in /usr/lib/x86_64-linux-gnu/libSDL2-2.0.so.0.18.2)
+        n0: 52488 0x10CA81: main (main.cpp:25)
+ n1: 42336 0x56FA204: xcb_connect_to_fd (in /usr/lib/x86_64-linux-gnu/libxcb.so.1.1.0)
+  n1: 42336 0x56FAE6B: xcb_connect_to_display_with_auth_info (in /usr/lib/x86_64-linux-gnu/libxcb.so.1.1.0)
+   n1: 42336 0x52D1E49: _XConnectXCB (in /usr/lib/x86_64-linux-gnu/libX11.so.6.4.0)
+    n2: 42336 0x52C1AE8: XOpenDisplay (in /usr/lib/x86_64-linux-gnu/libX11.so.6.4.0)
+     n1: 21168 0x4989E7D: ??? (in /usr/lib/x86_64-linux-gnu/libSDL2-2.0.so.0.18.2)
+      n1: 21168 0x495CA48: ??? (in /usr/lib/x86_64-linux-gnu/libSDL2-2.0.so.0.18.2)
+       n1: 21168 0x48BC426: ??? (in /usr/lib/x86_64-linux-gnu/libSDL2-2.0.so.0.18.2)
+        n0: 21168 0x10CA81: main (main.cpp:25)
+     n1: 21168 0x4989EF6: ??? (in /usr/lib/x86_64-linux-gnu/libSDL2-2.0.so.0.18.2)
+      n1: 21168 0x495CA48: ??? (in /usr/lib/x86_64-linux-gnu/libSDL2-2.0.so.0.18.2)
+       n1: 21168 0x48BC426: ??? (in /usr/lib/x86_64-linux-gnu/libSDL2-2.0.so.0.18.2)
+        n0: 21168 0x10CA81: main (main.cpp:25)
+ n2: 32768 0x52C1E3E: XOpenDisplay (in /usr/lib/x86_64-linux-gnu/libX11.so.6.4.0)
+  n1: 16384 0x4989E7D: ??? (in /usr/lib/x86_64-linux-gnu/libSDL2-2.0.so.0.18.2)
+   n1: 16384 0x495CA48: ??? (in /usr/lib/x86_64-linux-gnu/libSDL2-2.0.so.0.18.2)
+    n1: 16384 0x48BC426: ??? (in /usr/lib/x86_64-linux-gnu/libSDL2-2.0.so.0.18.2)
+     n0: 16384 0x10CA81: main (main.cpp:25)
+  n1: 16384 0x4989EF6: ??? (in /usr/lib/x86_64-linux-gnu/libSDL2-2.0.so.0.18.2)
+   n1: 16384 0x495CA48: ??? (in /usr/lib/x86_64-linux-gnu/libSDL2-2.0.so.0.18.2)
+    n1: 16384 0x48BC426: ??? (in /usr/lib/x86_64-linux-gnu/libSDL2-2.0.so.0.18.2)
+     n0: 16384 0x10CA81: main (main.cpp:25)
+ n1: 30229 0x400DA02: calloc (rtld-malloc.h:44)
+  n1: 30229 0x400DA02: _dl_new_object (dl-object.c:92)
+   n1: 30229 0x4008C82: _dl_map_object_from_fd (dl-load.c:1063)
+    n2: 30229 0x400A600: _dl_map_object (dl-load.c:2327)
+     n1: 26583 0x4003494: openaux (dl-deps.c:64)
+      n1: 26583 0x4ED6C27: _dl_catch_exception (dl-error-skeleton.c:208)
+       n1: 26583 0x4003C7B: _dl_map_object_deps (dl-deps.c:248)
+        n1: 26583 0x400EA0E: dl_open_worker_begin (dl-open.c:592)
+         n1: 26583 0x4ED6C27: _dl_catch_exception (dl-error-skeleton.c:208)
+          n1: 26583 0x400DF99: dl_open_worker (dl-open.c:782)
+           n1: 26583 0x4ED6C27: _dl_catch_exception (dl-error-skeleton.c:208)
+            n1: 26583 0x400E34D: _dl_open (dl-open.c:883)
+             n1: 26583 0x4DF26BB: dlopen_doit (dlopen.c:56)
+              n1: 26583 0x4ED6C27: _dl_catch_exception (dl-error-skeleton.c:208)
+               n1: 26583 0x4ED6CF2: _dl_catch_error (dl-error-skeleton.c:227)
+                n1: 26583 0x4DF21AD: _dlerror_run (dlerror.c:138)
+                 n1: 26583 0x4DF2747: dlopen_implementation (dlopen.c:71)
+                  n1: 26583 0x4DF2747: dlopen@@GLIBC_2.34 (dlopen.c:81)
+                   n0: 26583 in 3 places, all below massif's threshold (1.00%)
+     n0: 3646 in 1 place, below massif's threshold (1.00%)
+ n1: 29224 0x56FA4FB: xcb_connect_to_fd (in /usr/lib/x86_64-linux-gnu/libxcb.so.1.1.0)
+  n1: 29224 0x56FAE6B: xcb_connect_to_display_with_auth_info (in /usr/lib/x86_64-linux-gnu/libxcb.so.1.1.0)
+   n1: 29224 0x52D1E49: _XConnectXCB (in /usr/lib/x86_64-linux-gnu/libX11.so.6.4.0)
+    n2: 29224 0x52C1AE8: XOpenDisplay (in /usr/lib/x86_64-linux-gnu/libX11.so.6.4.0)
+     n1: 14612 0x4989E7D: ??? (in /usr/lib/x86_64-linux-gnu/libSDL2-2.0.so.0.18.2)
+      n1: 14612 0x495CA48: ??? (in /usr/lib/x86_64-linux-gnu/libSDL2-2.0.so.0.18.2)
+       n1: 14612 0x48BC426: ??? (in /usr/lib/x86_64-linux-gnu/libSDL2-2.0.so.0.18.2)
+        n0: 14612 0x10CA81: main (main.cpp:25)
+     n1: 14612 0x4989EF6: ??? (in /usr/lib/x86_64-linux-gnu/libSDL2-2.0.so.0.18.2)
+      n1: 14612 0x495CA48: ??? (in /usr/lib/x86_64-linux-gnu/libSDL2-2.0.so.0.18.2)
+       n1: 14612 0x48BC426: ??? (in /usr/lib/x86_64-linux-gnu/libSDL2-2.0.so.0.18.2)
+        n0: 14612 0x10CA81: main (main.cpp:25)
+ n1: 26244 0x52FB323: ??? (in /usr/lib/x86_64-linux-gnu/libX11.so.6.4.0)
+  n1: 26244 0x52FBFCD: _XimLocalOpenIM (in /usr/lib/x86_64-linux-gnu/libX11.so.6.4.0)
+   n1: 26244 0x52F39FF: _XimOpenIM (in /usr/lib/x86_64-linux-gnu/libX11.so.6.4.0)
+    n1: 26244 0x4983345: ??? (in /usr/lib/x86_64-linux-gnu/libSDL2-2.0.so.0.18.2)
+     n1: 26244 0x498AAFC: ??? (in /usr/lib/x86_64-linux-gnu/libSDL2-2.0.so.0.18.2)
+      n1: 26244 0x495C88D: ??? (in /usr/lib/x86_64-linux-gnu/libSDL2-2.0.so.0.18.2)
+       n1: 26244 0x48BC426: ??? (in /usr/lib/x86_64-linux-gnu/libSDL2-2.0.so.0.18.2)
+        n0: 26244 0x10CA81: main (main.cpp:25)
+ n1: 26244 0x52FB732: ??? (in /usr/lib/x86_64-linux-gnu/libX11.so.6.4.0)
+  n1: 26244 0x52FBFCD: _XimLocalOpenIM (in /usr/lib/x86_64-linux-gnu/libX11.so.6.4.0)
+   n1: 26244 0x52F39FF: _XimOpenIM (in /usr/lib/x86_64-linux-gnu/libX11.so.6.4.0)
+    n1: 26244 0x4983345: ??? (in /usr/lib/x86_64-linux-gnu/libSDL2-2.0.so.0.18.2)
+     n1: 26244 0x498AAFC: ??? (in /usr/lib/x86_64-linux-gnu/libSDL2-2.0.so.0.18.2)
+      n1: 26244 0x495C88D: ??? (in /usr/lib/x86_64-linux-gnu/libSDL2-2.0.so.0.18.2)
+       n1: 26244 0x48BC426: ??? (in /usr/lib/x86_64-linux-gnu/libSDL2-2.0.so.0.18.2)
+        n0: 26244 0x10CA81: main (main.cpp:25)
+#-----------
+snapshot=2
+#-----------
+time=208499114
+mem_heap_B=1965029
+mem_heap_extra_B=112043
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=3
+#-----------
+time=354151251
+mem_heap_B=2660603
+mem_heap_extra_B=127989
+mem_stacks_B=0
+heap_tree=detailed
+n19: 2660603 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 472368 0x52FB8E6: ??? (in /usr/lib/x86_64-linux-gnu/libX11.so.6.4.0)
+  n1: 472368 0x52FBFCD: _XimLocalOpenIM (in /usr/lib/x86_64-linux-gnu/libX11.so.6.4.0)
+   n1: 472368 0x52F39FF: _XimOpenIM (in /usr/lib/x86_64-linux-gnu/libX11.so.6.4.0)
+    n1: 472368 0x4983345: ??? (in /usr/lib/x86_64-linux-gnu/libSDL2-2.0.so.0.18.2)
+     n1: 472368 0x498AAFC: ??? (in /usr/lib/x86_64-linux-gnu/libSDL2-2.0.so.0.18.2)
+      n1: 472368 0x495C88D: ??? (in /usr/lib/x86_64-linux-gnu/libSDL2-2.0.so.0.18.2)
+       n1: 472368 0x48BC426: ??? (in /usr/lib/x86_64-linux-gnu/libSDL2-2.0.so.0.18.2)
+        n0: 472368 0x10CA81: main (main.cpp:25)
+ n0: 446096 in 635 places, all below massif's threshold (1.00%)
+ n2: 412032 0x6F428E2: ??? (in /usr/lib/x86_64-linux-gnu/libGLX_mesa.so.0.0.0)
+  n1: 272832 0x6F593A7: ??? (in /usr/lib/x86_64-linux-gnu/libGLX_mesa.so.0.0.0)
+   n1: 272832 0x6F4A880: ??? (in /usr/lib/x86_64-linux-gnu/libGLX_mesa.so.0.0.0)
+    n1: 272832 0x6F45FC7: ??? (in /usr/lib/x86_64-linux-gnu/libGLX_mesa.so.0.0.0)
+     n1: 272832 0x4986B2C: ??? (in /usr/lib/x86_64-linux-gnu/libSDL2-2.0.so.0.18.2)
+      n1: 272832 0x4986F0C: ??? (in /usr/lib/x86_64-linux-gnu/libSDL2-2.0.so.0.18.2)
+       n1: 272832 0x495DE3B: ??? (in /usr/lib/x86_64-linux-gnu/libSDL2-2.0.so.0.18.2)
+        n1: 272832 0x495C035: ??? (in /usr/lib/x86_64-linux-gnu/libSDL2-2.0.so.0.18.2)
+         n1: 272832 0x495CB60: ??? (in /usr/lib/x86_64-linux-gnu/libSDL2-2.0.so.0.18.2)
+          n1: 272832 0x48BC426: ??? (in /usr/lib/x86_64-linux-gnu/libSDL2-2.0.so.0.18.2)
+           n0: 272832 0x10CA81: main (main.cpp:25)
+  n1: 139200 0x6F593BF: ??? (in /usr/lib/x86_64-linux-gnu/libGLX_mesa.so.0.0.0)
+   n1: 139200 0x6F4A880: ??? (in /usr/lib/x86_64-linux-gnu/libGLX_mesa.so.0.0.0)
+    n1: 139200 0x6F45FC7: ??? (in /usr/lib/x86_64-linux-gnu/libGLX_mesa.so.0.0.0)
+     n1: 139200 0x4986B2C: ??? (in /usr/lib/x86_64-linux-gnu/libSDL2-2.0.so.0.18.2)
+      n1: 139200 0x4986F0C: ??? (in /usr/lib/x86_64-linux-gnu/libSDL2-2.0.so.0.18.2)
+       n1: 139200 0x495DE3B: ??? (in /usr/lib/x86_64-linux-gnu/libSDL2-2.0.so.0.18.2)
+        n1: 139200 0x495C035: ??? (in /usr/lib/x86_64-linux-gnu/libSDL2-2.0.so.0.18.2)
+         n1: 139200 0x495CB60: ??? (in /usr/lib/x86_64-linux-gnu/libSDL2-2.0.so.0.18.2)
+          n1: 139200 0x48BC426: ??? (in /usr/lib/x86_64-linux-gnu/libSDL2-2.0.so.0.18.2)
+           n0: 139200 0x10CA81: main (main.cpp:25)
+ n1: 269584 0x718943A: ??? (in /usr/lib/x86_64-linux-gnu/dri/iris_dri.so)
+  n1: 269584 0x719720C: ??? (in /usr/lib/x86_64-linux-gnu/dri/iris_dri.so)
+   n1: 269584 0x70C119B: ??? (in /usr/lib/x86_64-linux-gnu/dri/iris_dri.so)
+    n1: 269584 0x70C4927: ??? (in /usr/lib/x86_64-linux-gnu/dri/iris_dri.so)
+     n1: 269584 0x6F58F6F: ??? (in /usr/lib/x86_64-linux-gnu/libGLX_mesa.so.0.0.0)
+      n1: 269584 0x6F430A8: ??? (in /usr/lib/x86_64-linux-gnu/libGLX_mesa.so.0.0.0)
+       n1: 269584 0x6F469EB: ??? (in /usr/lib/x86_64-linux-gnu/libGLX_mesa.so.0.0.0)
+        n1: 269584 0x6F46DF0: ??? (in /usr/lib/x86_64-linux-gnu/libGLX_mesa.so.0.0.0)
+         n2: 269584 0x6EFB97B: glXCreateContext (in /usr/lib/x86_64-linux-gnu/libGLX.so.0.0.0)
+          n1: 269584 0x49828E5: ??? (in /usr/lib/x86_64-linux-gnu/libSDL2-2.0.so.0.18.2)
+           n1: 269584 0x495E817: ??? (in /usr/lib/x86_64-linux-gnu/libSDL2-2.0.so.0.18.2)
+            n1: 269584 0x495CB74: ??? (in /usr/lib/x86_64-linux-gnu/libSDL2-2.0.so.0.18.2)
+             n1: 269584 0x48BC426: ??? (in /usr/lib/x86_64-linux-gnu/libSDL2-2.0.so.0.18.2)
+              n0: 269584 0x10CA81: main (main.cpp:25)
+          n0: 0 in 1 place, below massif's threshold (1.00%)
+ n1: 213432 0x7626E76: ??? (in /usr/lib/x86_64-linux-gnu/dri/iris_dri.so)
+  n1: 213432 0x71971B0: ??? (in /usr/lib/x86_64-linux-gnu/dri/iris_dri.so)
+   n1: 213432 0x70C119B: ??? (in /usr/lib/x86_64-linux-gnu/dri/iris_dri.so)
+    n1: 213432 0x70C4927: ??? (in /usr/lib/x86_64-linux-gnu/dri/iris_dri.so)
+     n1: 213432 0x6F58F6F: ??? (in /usr/lib/x86_64-linux-gnu/libGLX_mesa.so.0.0.0)
+      n1: 213432 0x6F430A8: ??? (in /usr/lib/x86_64-linux-gnu/libGLX_mesa.so.0.0.0)
+       n1: 213432 0x6F469EB: ??? (in /usr/lib/x86_64-linux-gnu/libGLX_mesa.so.0.0.0)
+        n1: 213432 0x6F46DF0: ??? (in /usr/lib/x86_64-linux-gnu/libGLX_mesa.so.0.0.0)
+         n2: 213432 0x6EFB97B: glXCreateContext (in /usr/lib/x86_64-linux-gnu/libGLX.so.0.0.0)
+          n1: 213432 0x49828E5: ??? (in /usr/lib/x86_64-linux-gnu/libSDL2-2.0.so.0.18.2)
+           n1: 213432 0x495E817: ??? (in /usr/lib/x86_64-linux-gnu/libSDL2-2.0.so.0.18.2)
+            n1: 213432 0x495CB74: ??? (in /usr/lib/x86_64-linux-gnu/libSDL2-2.0.so.0.18.2)
+             n1: 213432 0x48BC426: ??? (in /usr/lib/x86_64-linux-gnu/libSDL2-2.0.so.0.18.2)
+              n0: 213432 0x10CA81: main (main.cpp:25)
+          n0: 0 in 1 place, below massif's threshold (1.00%)
+ n3: 140832 0x70CBE64: ??? (in /usr/lib/x86_64-linux-gnu/dri/iris_dri.so)
+  n2: 64928 0x70CBECD: ??? (in /usr/lib/x86_64-linux-gnu/dri/iris_dri.so)
+   n1: 50640 0x7D6C746: ??? (in /usr/lib/x86_64-linux-gnu/dri/iris_dri.so)
+    n1: 50640 0x71971B0: ??? (in /usr/lib/x86_64-linux-gnu/dri/iris_dri.so)
+     n1: 50640 0x70C119B: ??? (in /usr/lib/x86_64-linux-gnu/dri/iris_dri.so)
+      n1: 50640 0x70C4927: ??? (in /usr/lib/x86_64-linux-gnu/dri/iris_dri.so)
+       n1: 50640 0x6F58F6F: ??? (in /usr/lib/x86_64-linux-gnu/libGLX_mesa.so.0.0.0)
+        n1: 50640 0x6F430A8: ??? (in /usr/lib/x86_64-linux-gnu/libGLX_mesa.so.0.0.0)
+         n1: 50640 0x6F469EB: ??? (in /usr/lib/x86_64-linux-gnu/libGLX_mesa.so.0.0.0)
+          n1: 50640 0x6F46DF0: ??? (in /usr/lib/x86_64-linux-gnu/libGLX_mesa.so.0.0.0)
+           n2: 50640 0x6EFB97B: glXCreateContext (in /usr/lib/x86_64-linux-gnu/libGLX.so.0.0.0)
+            n1: 50640 0x49828E5: ??? (in /usr/lib/x86_64-linux-gnu/libSDL2-2.0.so.0.18.2)
+             n1: 50640 0x495E817: ??? (in /usr/lib/x86_64-linux-gnu/libSDL2-2.0.so.0.18.2)
+              n1: 50640 0x495CB74: ??? (in /usr/lib/x86_64-linux-gnu/libSDL2-2.0.so.0.18.2)
+               n1: 50640 0x48BC426: ??? (in /usr/lib/x86_64-linux-gnu/libSDL2-2.0.so.0.18.2)
+                n0: 50640 0x10CA81: main (main.cpp:25)
+            n0: 0 in 1 place, below massif's threshold (1.00%)
+   n0: 14288 in 10 places, all below massif's threshold (1.00%)
+  n1: 50640 0x70CC02A: ??? (in /usr/lib/x86_64-linux-gnu/dri/iris_dri.so)
+   n0: 50640 in 12 places, all below massif's threshold (1.00%)
+  n0: 25264 in 10 places, all below massif's threshold (1.00%)
+ n2: 84406 0x97C797D: ??? (in /usr/lib/x86_64-linux-gnu/libLLVM-15.so.1)
+  n2: 84271 0x97C7B6D: ??? (in /usr/lib/x86_64-linux-gnu/libLLVM-15.so.1)
+   n1: 84253 0x97B97BA: llvm::cl::Option::addArgument() (in /usr/lib/x86_64-linux-gnu/libLLVM-15.so.1)
+    n0: 84253 in 2066 places, all below massif's threshold (1.00%)
+   n0: 18 in 1 place, below massif's threshold (1.00%)
+  n0: 135 in 1 place, below massif's threshold (1.00%)
+ n1: 81120 0x4DA7791: __new_exitfn (cxa_atexit.c:114)
+  n1: 81120 0x4DA790A: __internal_atexit (cxa_atexit.c:44)
+   n1: 81120 0x4DA790A: __cxa_atexit (cxa_atexit.c:70)
+    n0: 81120 in 78 places, all below massif's threshold (1.00%)
+ n1: 72704 0x4AD9979: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+  n1: 72704 0x400647D: call_init.part.0 (dl-init.c:70)
+   n1: 72704 0x4006567: call_init (dl-init.c:33)
+    n1: 72704 0x4006567: _dl_init (dl-init.c:117)
+     n0: 72704 0x40202E9: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+ n2: 67200 0x52C2210: XOpenDisplay (in /usr/lib/x86_64-linux-gnu/libX11.so.6.4.0)
+  n1: 33600 0x4989E7D: ??? (in /usr/lib/x86_64-linux-gnu/libSDL2-2.0.so.0.18.2)
+   n1: 33600 0x495CA48: ??? (in /usr/lib/x86_64-linux-gnu/libSDL2-2.0.so.0.18.2)
+    n1: 33600 0x48BC426: ??? (in /usr/lib/x86_64-linux-gnu/libSDL2-2.0.so.0.18.2)
+     n0: 33600 0x10CA81: main (main.cpp:25)
+  n1: 33600 0x4989EF6: ??? (in /usr/lib/x86_64-linux-gnu/libSDL2-2.0.so.0.18.2)
+   n1: 33600 0x495CA48: ??? (in /usr/lib/x86_64-linux-gnu/libSDL2-2.0.so.0.18.2)
+    n1: 33600 0x48BC426: ??? (in /usr/lib/x86_64-linux-gnu/libSDL2-2.0.so.0.18.2)
+     n0: 33600 0x10CA81: main (main.cpp:25)
+ n1: 59440 0x6E68E9E: ??? (in /usr/lib/x86_64-linux-gnu/libGLdispatch.so.0.0.0)
+  n1: 59440 0x6E69C8A: __glDispatchMakeCurrent (in /usr/lib/x86_64-linux-gnu/libGLdispatch.so.0.0.0)
+   n1: 59440 0x6EF679A: ??? (in /usr/lib/x86_64-linux-gnu/libGLX.so.0.0.0)
+    n1: 59440 0x6EFB276: ??? (in /usr/lib/x86_64-linux-gnu/libGLX.so.0.0.0)
+     n1: 59440 0x4987035: ??? (in /usr/lib/x86_64-linux-gnu/libSDL2-2.0.so.0.18.2)
+      n1: 59440 0x495DE3B: ??? (in /usr/lib/x86_64-linux-gnu/libSDL2-2.0.so.0.18.2)
+       n1: 59440 0x495C035: ??? (in /usr/lib/x86_64-linux-gnu/libSDL2-2.0.so.0.18.2)
+        n1: 59440 0x495CB60: ??? (in /usr/lib/x86_64-linux-gnu/libSDL2-2.0.so.0.18.2)
+         n1: 59440 0x48BC426: ??? (in /usr/lib/x86_64-linux-gnu/libSDL2-2.0.so.0.18.2)
+          n0: 59440 0x10CA81: main (main.cpp:25)
+ n2: 57600 0x70C35B4: ??? (in /usr/lib/x86_64-linux-gnu/dri/iris_dri.so)
+  n1: 38400 0x70C413D: ??? (in /usr/lib/x86_64-linux-gnu/dri/iris_dri.so)
+   n1: 38400 0x70BC05F: ??? (in /usr/lib/x86_64-linux-gnu/dri/iris_dri.so)
+    n1: 38400 0x70C4D3E: ??? (in /usr/lib/x86_64-linux-gnu/dri/iris_dri.so)
+     n1: 38400 0x6F59203: ??? (in /usr/lib/x86_64-linux-gnu/libGLX_mesa.so.0.0.0)
+      n1: 38400 0x6F4A880: ??? (in /usr/lib/x86_64-linux-gnu/libGLX_mesa.so.0.0.0)
+       n1: 38400 0x6F45FC7: ??? (in /usr/lib/x86_64-linux-gnu/libGLX_mesa.so.0.0.0)
+        n1: 38400 0x4986B2C: ??? (in /usr/lib/x86_64-linux-gnu/libSDL2-2.0.so.0.18.2)
+         n1: 38400 0x4986F0C: ??? (in /usr/lib/x86_64-linux-gnu/libSDL2-2.0.so.0.18.2)
+          n1: 38400 0x495DE3B: ??? (in /usr/lib/x86_64-linux-gnu/libSDL2-2.0.so.0.18.2)
+           n1: 38400 0x495C035: ??? (in /usr/lib/x86_64-linux-gnu/libSDL2-2.0.so.0.18.2)
+            n1: 38400 0x495CB60: ??? (in /usr/lib/x86_64-linux-gnu/libSDL2-2.0.so.0.18.2)
+             n1: 38400 0x48BC426: ??? (in /usr/lib/x86_64-linux-gnu/libSDL2-2.0.so.0.18.2)
+              n0: 38400 0x10CA81: main (main.cpp:25)
+  n0: 19200 in 1 place, below massif's threshold (1.00%)
+ n1: 52488 0x52FB627: ??? (in /usr/lib/x86_64-linux-gnu/libX11.so.6.4.0)
+  n1: 52488 0x52FBFCD: _XimLocalOpenIM (in /usr/lib/x86_64-linux-gnu/libX11.so.6.4.0)
+   n1: 52488 0x52F39FF: _XimOpenIM (in /usr/lib/x86_64-linux-gnu/libX11.so.6.4.0)
+    n1: 52488 0x4983345: ??? (in /usr/lib/x86_64-linux-gnu/libSDL2-2.0.so.0.18.2)
+     n1: 52488 0x498AAFC: ??? (in /usr/lib/x86_64-linux-gnu/libSDL2-2.0.so.0.18.2)
+      n1: 52488 0x495C88D: ??? (in /usr/lib/x86_64-linux-gnu/libSDL2-2.0.so.0.18.2)
+       n1: 52488 0x48BC426: ??? (in /usr/lib/x86_64-linux-gnu/libSDL2-2.0.so.0.18.2)
+        n0: 52488 0x10CA81: main (main.cpp:25)
+ n1: 50712 0x983F597: ??? (in /usr/lib/x86_64-linux-gnu/libLLVM-15.so.1)
+  n2: 50712 0x983FCD0: llvm::StringMapImpl::RehashTable(unsigned int) (in /usr/lib/x86_64-linux-gnu/libLLVM-15.so.1)
+   n1: 49164 0x97C79BC: ??? (in /usr/lib/x86_64-linux-gnu/libLLVM-15.so.1)
+    n1: 49164 0x97C7B6D: ??? (in /usr/lib/x86_64-linux-gnu/libLLVM-15.so.1)
+     n2: 49164 0x97B97BA: llvm::cl::Option::addArgument() (in /usr/lib/x86_64-linux-gnu/libLLVM-15.so.1)
+      n1: 49164 0x972621A: ??? (in /usr/lib/x86_64-linux-gnu/libLLVM-15.so.1)
+       n1: 49164 0x400647D: call_init.part.0 (dl-init.c:70)
+        n1: 49164 0x4006567: call_init (dl-init.c:33)
+         n1: 49164 0x4006567: _dl_init (dl-init.c:117)
+          n1: 49164 0x4ED6C84: _dl_catch_exception (dl-error-skeleton.c:182)
+           n1: 49164 0x400DFF5: dl_open_worker (dl-open.c:808)
+            n1: 49164 0x400DFF5: dl_open_worker (dl-open.c:771)
+             n1: 49164 0x4ED6C27: _dl_catch_exception (dl-error-skeleton.c:208)
+              n1: 49164 0x400E34D: _dl_open (dl-open.c:883)
+               n1: 49164 0x4DF26BB: dlopen_doit (dlopen.c:56)
+                n1: 49164 0x4ED6C27: _dl_catch_exception (dl-error-skeleton.c:208)
+                 n1: 49164 0x4ED6CF2: _dl_catch_error (dl-error-skeleton.c:227)
+                  n1: 49164 0x4DF21AD: _dlerror_run (dlerror.c:138)
+                   n1: 49164 0x4DF2747: dlopen_implementation (dlopen.c:71)
+                    n1: 49164 0x4DF2747: dlopen@@GLIBC_2.34 (dlopen.c:81)
+                     n1: 49164 0x6F63F29: ??? (in /usr/lib/x86_64-linux-gnu/libGLX_mesa.so.0.0.0)
+                      n1: 49164 0x6F6401C: ??? (in /usr/lib/x86_64-linux-gnu/libGLX_mesa.so.0.0.0)
+                       n1: 49164 0x6F42534: ??? (in /usr/lib/x86_64-linux-gnu/libGLX_mesa.so.0.0.0)
+                        n1: 49164 0x6F5914B: ??? (in /usr/lib/x86_64-linux-gnu/libGLX_mesa.so.0.0.0)
+                         n1: 49164 0x6F4A880: ??? (in /usr/lib/x86_64-linux-gnu/libGLX_mesa.so.0.0.0)
+                          n1: 49164 0x6F45FC7: ??? (in /usr/lib/x86_64-linux-gnu/libGLX_mesa.so.0.0.0)
+                           n1: 49164 0x4986B2C: ??? (in /usr/lib/x86_64-linux-gnu/libSDL2-2.0.so.0.18.2)
+                            n1: 49164 0x4986F0C: ??? (in /usr/lib/x86_64-linux-gnu/libSDL2-2.0.so.0.18.2)
+                             n1: 49164 0x495DE3B: ??? (in /usr/lib/x86_64-linux-gnu/libSDL2-2.0.so.0.18.2)
+                              n1: 49164 0x495C035: ??? (in /usr/lib/x86_64-linux-gnu/libSDL2-2.0.so.0.18.2)
+                               n1: 49164 0x495CB60: ??? (in /usr/lib/x86_64-linux-gnu/libSDL2-2.0.so.0.18.2)
+                                n1: 49164 0x48BC426: ??? (in /usr/lib/x86_64-linux-gnu/libSDL2-2.0.so.0.18.2)
+                                 n0: 49164 0x10CA81: main (main.cpp:25)
+      n0: 0 in 7 places, all below massif's threshold (1.00%)
+   n0: 1548 in 1 place, below massif's threshold (1.00%)
+ n1: 46032 0x72248FE: ??? (in /usr/lib/x86_64-linux-gnu/dri/iris_dri.so)
+  n0: 46032 in 3 places, all below massif's threshold (1.00%)
+ n1: 42336 0x56FA204: xcb_connect_to_fd (in /usr/lib/x86_64-linux-gnu/libxcb.so.1.1.0)
+  n1: 42336 0x56FAE6B: xcb_connect_to_display_with_auth_info (in /usr/lib/x86_64-linux-gnu/libxcb.so.1.1.0)
+   n1: 42336 0x52D1E49: _XConnectXCB (in /usr/lib/x86_64-linux-gnu/libX11.so.6.4.0)
+    n1: 42336 0x52C1AE8: XOpenDisplay (in /usr/lib/x86_64-linux-gnu/libX11.so.6.4.0)
+     n0: 42336 in 2 places, all below massif's threshold (1.00%)
+ n1: 32768 0x52C1E3E: XOpenDisplay (in /usr/lib/x86_64-linux-gnu/libX11.so.6.4.0)
+  n0: 32768 in 2 places, all below massif's threshold (1.00%)
+ n1: 30229 0x400DA02: calloc (rtld-malloc.h:44)
+  n1: 30229 0x400DA02: _dl_new_object (dl-object.c:92)
+   n1: 30229 0x4008C82: _dl_map_object_from_fd (dl-load.c:1063)
+    n1: 30229 0x400A600: _dl_map_object (dl-load.c:2327)
+     n0: 30229 in 2 places, all below massif's threshold (1.00%)
+ n1: 29224 0x56FA4FB: xcb_connect_to_fd (in /usr/lib/x86_64-linux-gnu/libxcb.so.1.1.0)
+  n1: 29224 0x56FAE6B: xcb_connect_to_display_with_auth_info (in /usr/lib/x86_64-linux-gnu/libxcb.so.1.1.0)
+   n1: 29224 0x52D1E49: _XConnectXCB (in /usr/lib/x86_64-linux-gnu/libX11.so.6.4.0)
+    n1: 29224 0x52C1AE8: XOpenDisplay (in /usr/lib/x86_64-linux-gnu/libX11.so.6.4.0)
+     n0: 29224 in 2 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=4
+#-----------
+time=522725553
+mem_heap_B=4011853
+mem_heap_extra_B=272683
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=5
+#-----------
+time=631552684
+mem_heap_B=5458669
+mem_heap_extra_B=376027
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=6
+#-----------
+time=706670528
+mem_heap_B=6406077
+mem_heap_extra_B=443699
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=7
+#-----------
+time=814381054
+mem_heap_B=7726893
+mem_heap_extra_B=538043
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=8
+#-----------
+time=882521847
+mem_heap_B=8550989
+mem_heap_extra_B=596907
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=9
+#-----------
+time=984716889
+mem_heap_B=9784669
+mem_heap_extra_B=685027
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=10
+#-----------
+time=1086904534
+mem_heap_B=11007933
+mem_heap_extra_B=772403
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=11
+#-----------
+time=1180575397
+mem_heap_B=12116733
+mem_heap_extra_B=851603
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=12
+#-----------
+time=1329662709
+mem_heap_B=13867293
+mem_heap_extra_B=976643
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=13
+#-----------
+time=1493691258
+mem_heap_B=15790333
+mem_heap_extra_B=1114003
+mem_stacks_B=0
+heap_tree=detailed
+n4: 15790333 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 13645744 0x1198A3: __gnu_cxx::new_allocator<std::_Rb_tree_node<std::pair<scene::physics::Position const, scene::physics::Physics_Object> > >::allocate(unsigned long, void const*) (new_allocator.h:127)
+  n1: 13645744 0x1194CF: allocate (allocator.h:185)
+   n1: 13645744 0x1194CF: std::allocator_traits<std::allocator<std::_Rb_tree_node<std::pair<scene::physics::Position const, scene::physics::Physics_Object> > > >::allocate(std::allocator<std::_Rb_tree_node<std::pair<scene::physics::Position const, scene::physics::Physics_Object> > >&, unsigned long) (alloc_traits.h:464)
+    n1: 13645744 0x119108: std::_Rb_tree<scene::physics::Position, std::pair<scene::physics::Position const, scene::physics::Physics_Object>, std::_Select1st<std::pair<scene::physics::Position const, scene::physics::Physics_Object> >, std::less<scene::physics::Position>, std::allocator<std::pair<scene::physics::Position const, scene::physics::Physics_Object> > >::_M_get_node() (stl_tree.h:561)
+     n1: 13645744 0x1189D9: std::_Rb_tree_node<std::pair<scene::physics::Position const, scene::physics::Physics_Object> >* std::_Rb_tree<scene::physics::Position, std::pair<scene::physics::Position const, scene::physics::Physics_Object>, std::_Select1st<std::pair<scene::physics::Position const, scene::physics::Physics_Object> >, std::less<scene::physics::Position>, std::allocator<std::pair<scene::physics::Position const, scene::physics::Physics_Object> > >::_M_create_node<std::pair<scene::physics::Position, scene::physics::Physics_Object> >(std::pair<scene::physics::Position, scene::physics::Physics_Object>&&) (stl_tree.h:611)
+      n1: 13645744 0x118684: std::_Rb_tree_iterator<std::pair<scene::physics::Position const, scene::physics::Physics_Object> > std::_Rb_tree<scene::physics::Position, std::pair<scene::physics::Position const, scene::physics::Physics_Object>, std::_Select1st<std::pair<scene::physics::Position const, scene::physics::Physics_Object> >, std::less<scene::physics::Position>, std::allocator<std::pair<scene::physics::Position const, scene::physics::Physics_Object> > >::_M_emplace_equal<std::pair<scene::physics::Position, scene::physics::Physics_Object> >(std::pair<scene::physics::Position, scene::physics::Physics_Object>&&) (stl_tree.h:2410)
+       n1: 13645744 0x11843D: std::_Rb_tree_iterator<std::pair<scene::physics::Position const, scene::physics::Physics_Object> > std::multimap<scene::physics::Position, scene::physics::Physics_Object, std::less<scene::physics::Position>, std::allocator<std::pair<scene::physics::Position const, scene::physics::Physics_Object> > >::emplace<std::pair<scene::physics::Position, scene::physics::Physics_Object> >(std::pair<scene::physics::Position, scene::physics::Physics_Object>&&) (stl_multimap.h:492)
+        n2: 13645744 0x117D75: scene::physics::Physics_Object_List::add_object(scene::physics::Physics_Data) (physics_object_list.cpp:28)
+         n0: 13645520 0x10CDDA: main (main.cpp:53)
+         n0: 224 in 2 places, all below massif's threshold (1.00%)
+ n0: 1260189 in 698 places, all below massif's threshold (1.00%)
+ n1: 472368 0x52FB8E6: ??? (in /usr/lib/x86_64-linux-gnu/libX11.so.6.4.0)
+  n1: 472368 0x52FBFCD: _XimLocalOpenIM (in /usr/lib/x86_64-linux-gnu/libX11.so.6.4.0)
+   n1: 472368 0x52F39FF: _XimOpenIM (in /usr/lib/x86_64-linux-gnu/libX11.so.6.4.0)
+    n1: 472368 0x4983345: ??? (in /usr/lib/x86_64-linux-gnu/libSDL2-2.0.so.0.18.2)
+     n1: 472368 0x498AAFC: ??? (in /usr/lib/x86_64-linux-gnu/libSDL2-2.0.so.0.18.2)
+      n1: 472368 0x495C88D: ??? (in /usr/lib/x86_64-linux-gnu/libSDL2-2.0.so.0.18.2)
+       n1: 472368 0x48BC426: ??? (in /usr/lib/x86_64-linux-gnu/libSDL2-2.0.so.0.18.2)
+        n0: 472368 0x10CA81: main (main.cpp:25)
+ n2: 412032 0x6F428E2: ??? (in /usr/lib/x86_64-linux-gnu/libGLX_mesa.so.0.0.0)
+  n1: 272832 0x6F593A7: ??? (in /usr/lib/x86_64-linux-gnu/libGLX_mesa.so.0.0.0)
+   n1: 272832 0x6F4A880: ??? (in /usr/lib/x86_64-linux-gnu/libGLX_mesa.so.0.0.0)
+    n1: 272832 0x6F45FC7: ??? (in /usr/lib/x86_64-linux-gnu/libGLX_mesa.so.0.0.0)
+     n1: 272832 0x4986B2C: ??? (in /usr/lib/x86_64-linux-gnu/libSDL2-2.0.so.0.18.2)
+      n1: 272832 0x4986F0C: ??? (in /usr/lib/x86_64-linux-gnu/libSDL2-2.0.so.0.18.2)
+       n1: 272832 0x495DE3B: ??? (in /usr/lib/x86_64-linux-gnu/libSDL2-2.0.so.0.18.2)
+        n1: 272832 0x495C035: ??? (in /usr/lib/x86_64-linux-gnu/libSDL2-2.0.so.0.18.2)
+         n1: 272832 0x495CB60: ??? (in /usr/lib/x86_64-linux-gnu/libSDL2-2.0.so.0.18.2)
+          n1: 272832 0x48BC426: ??? (in /usr/lib/x86_64-linux-gnu/libSDL2-2.0.so.0.18.2)
+           n0: 272832 0x10CA81: main (main.cpp:25)
+  n0: 139200 in 1 place, below massif's threshold (1.00%)
+#-----------
+snapshot=14
+#-----------
+time=1612979525
+mem_heap_B=17182941
+mem_heap_extra_B=1213475
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=15
+#-----------
+time=1687542903
+mem_heap_B=18040973
+mem_heap_extra_B=1274763
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=16
+#-----------
+time=1791925973
+mem_heap_B=19219325
+mem_heap_extra_B=1358931
+mem_stacks_B=0
+heap_tree=detailed
+n4: 19219325 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 17074736 0x1198A3: __gnu_cxx::new_allocator<std::_Rb_tree_node<std::pair<scene::physics::Position const, scene::physics::Physics_Object> > >::allocate(unsigned long, void const*) (new_allocator.h:127)
+  n1: 17074736 0x1194CF: allocate (allocator.h:185)
+   n1: 17074736 0x1194CF: std::allocator_traits<std::allocator<std::_Rb_tree_node<std::pair<scene::physics::Position const, scene::physics::Physics_Object> > > >::allocate(std::allocator<std::_Rb_tree_node<std::pair<scene::physics::Position const, scene::physics::Physics_Object> > >&, unsigned long) (alloc_traits.h:464)
+    n1: 17074736 0x119108: std::_Rb_tree<scene::physics::Position, std::pair<scene::physics::Position const, scene::physics::Physics_Object>, std::_Select1st<std::pair<scene::physics::Position const, scene::physics::Physics_Object> >, std::less<scene::physics::Position>, std::allocator<std::pair<scene::physics::Position const, scene::physics::Physics_Object> > >::_M_get_node() (stl_tree.h:561)
+     n1: 17074736 0x1189D9: std::_Rb_tree_node<std::pair<scene::physics::Position const, scene::physics::Physics_Object> >* std::_Rb_tree<scene::physics::Position, std::pair<scene::physics::Position const, scene::physics::Physics_Object>, std::_Select1st<std::pair<scene::physics::Position const, scene::physics::Physics_Object> >, std::less<scene::physics::Position>, std::allocator<std::pair<scene::physics::Position const, scene::physics::Physics_Object> > >::_M_create_node<std::pair<scene::physics::Position, scene::physics::Physics_Object> >(std::pair<scene::physics::Position, scene::physics::Physics_Object>&&) (stl_tree.h:611)
+      n1: 17074736 0x118684: std::_Rb_tree_iterator<std::pair<scene::physics::Position const, scene::physics::Physics_Object> > std::_Rb_tree<scene::physics::Position, std::pair<scene::physics::Position const, scene::physics::Physics_Object>, std::_Select1st<std::pair<scene::physics::Position const, scene::physics::Physics_Object> >, std::less<scene::physics::Position>, std::allocator<std::pair<scene::physics::Position const, scene::physics::Physics_Object> > >::_M_emplace_equal<std::pair<scene::physics::Position, scene::physics::Physics_Object> >(std::pair<scene::physics::Position, scene::physics::Physics_Object>&&) (stl_tree.h:2410)
+       n1: 17074736 0x11843D: std::_Rb_tree_iterator<std::pair<scene::physics::Position const, scene::physics::Physics_Object> > std::multimap<scene::physics::Position, scene::physics::Physics_Object, std::less<scene::physics::Position>, std::allocator<std::pair<scene::physics::Position const, scene::physics::Physics_Object> > >::emplace<std::pair<scene::physics::Position, scene::physics::Physics_Object> >(std::pair<scene::physics::Position, scene::physics::Physics_Object>&&) (stl_multimap.h:492)
+        n2: 17074736 0x117D75: scene::physics::Physics_Object_List::add_object(scene::physics::Physics_Data) (physics_object_list.cpp:28)
+         n0: 17074512 0x10CDDA: main (main.cpp:53)
+         n0: 224 in 2 places, all below massif's threshold (1.00%)
+ n0: 1260189 in 698 places, all below massif's threshold (1.00%)
+ n1: 472368 0x52FB8E6: ??? (in /usr/lib/x86_64-linux-gnu/libX11.so.6.4.0)
+  n1: 472368 0x52FBFCD: _XimLocalOpenIM (in /usr/lib/x86_64-linux-gnu/libX11.so.6.4.0)
+   n1: 472368 0x52F39FF: _XimOpenIM (in /usr/lib/x86_64-linux-gnu/libX11.so.6.4.0)
+    n1: 472368 0x4983345: ??? (in /usr/lib/x86_64-linux-gnu/libSDL2-2.0.so.0.18.2)
+     n1: 472368 0x498AAFC: ??? (in /usr/lib/x86_64-linux-gnu/libSDL2-2.0.so.0.18.2)
+      n1: 472368 0x495C88D: ??? (in /usr/lib/x86_64-linux-gnu/libSDL2-2.0.so.0.18.2)
+       n1: 472368 0x48BC426: ??? (in /usr/lib/x86_64-linux-gnu/libSDL2-2.0.so.0.18.2)
+        n0: 472368 0x10CA81: main (main.cpp:25)
+ n2: 412032 0x6F428E2: ??? (in /usr/lib/x86_64-linux-gnu/libGLX_mesa.so.0.0.0)
+  n1: 272832 0x6F593A7: ??? (in /usr/lib/x86_64-linux-gnu/libGLX_mesa.so.0.0.0)
+   n1: 272832 0x6F4A880: ??? (in /usr/lib/x86_64-linux-gnu/libGLX_mesa.so.0.0.0)
+    n1: 272832 0x6F45FC7: ??? (in /usr/lib/x86_64-linux-gnu/libGLX_mesa.so.0.0.0)
+     n1: 272832 0x4986B2C: ??? (in /usr/lib/x86_64-linux-gnu/libSDL2-2.0.so.0.18.2)
+      n1: 272832 0x4986F0C: ??? (in /usr/lib/x86_64-linux-gnu/libSDL2-2.0.so.0.18.2)
+       n1: 272832 0x495DE3B: ??? (in /usr/lib/x86_64-linux-gnu/libSDL2-2.0.so.0.18.2)
+        n1: 272832 0x495C035: ??? (in /usr/lib/x86_64-linux-gnu/libSDL2-2.0.so.0.18.2)
+         n1: 272832 0x495CB60: ??? (in /usr/lib/x86_64-linux-gnu/libSDL2-2.0.so.0.18.2)
+          n1: 272832 0x48BC426: ??? (in /usr/lib/x86_64-linux-gnu/libSDL2-2.0.so.0.18.2)
+           n0: 272832 0x10CA81: main (main.cpp:25)
+  n0: 139200 in 1 place, below massif's threshold (1.00%)
+#-----------
+snapshot=17
+#-----------
+time=1911226825
+mem_heap_B=20556269
+mem_heap_extra_B=1454427
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=18
+#-----------
+time=1985786401
+mem_heap_B=21392909
+mem_heap_extra_B=1514187
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=19
+#-----------
+time=2116873378
+mem_heap_B=22855517
+mem_heap_extra_B=1618659
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=20
+#-----------
+time=2247985991
+mem_heap_B=24310845
+mem_heap_extra_B=1722611
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=21
+#-----------
+time=2405317510
+mem_heap_B=26045949
+mem_heap_extra_B=1846547
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=22
+#-----------
+time=2510202611
+mem_heap_B=27192269
+mem_heap_extra_B=1928427
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=23
+#-----------
+time=2641318892
+mem_heap_B=28625645
+mem_heap_extra_B=2030811
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=24
+#-----------
+time=2746203496
+mem_heap_B=29769277
+mem_heap_extra_B=2112499
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=25
+#-----------
+time=2824868106
+mem_heap_B=30625853
+mem_heap_extra_B=2173683
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=26
+#-----------
+time=2929750759
+mem_heap_B=31766125
+mem_heap_extra_B=2255131
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=27
+#-----------
+time=3034642804
+mem_heap_B=32904381
+mem_heap_extra_B=2336435
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=28
+#-----------
+time=3191976554
+mem_heap_B=34602637
+mem_heap_extra_B=2457739
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=29
+#-----------
+time=3296860445
+mem_heap_B=35736637
+mem_heap_extra_B=2538739
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=30
+#-----------
+time=3465790108
+mem_heap_B=37551149
+mem_heap_extra_B=2668347
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=31
+#-----------
+time=3550263791
+mem_heap_B=38450397
+mem_heap_extra_B=2732579
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=32
+#-----------
+time=3676970033
+mem_heap_B=39797757
+mem_heap_extra_B=2828819
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=33
+#-----------
+time=3761442828
+mem_heap_B=40695213
+mem_heap_extra_B=2892923
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=34
+#-----------
+time=3888149591
+mem_heap_B=42039773
+mem_heap_extra_B=2988963
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=35
+#-----------
+time=4014853494
+mem_heap_B=43401805
+mem_heap_extra_B=3086251
+mem_stacks_B=0
+heap_tree=detailed
+n3: 43401805 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 41257216 0x1198A3: __gnu_cxx::new_allocator<std::_Rb_tree_node<std::pair<scene::physics::Position const, scene::physics::Physics_Object> > >::allocate(unsigned long, void const*) (new_allocator.h:127)
+  n1: 41257216 0x1194CF: allocate (allocator.h:185)
+   n1: 41257216 0x1194CF: std::allocator_traits<std::allocator<std::_Rb_tree_node<std::pair<scene::physics::Position const, scene::physics::Physics_Object> > > >::allocate(std::allocator<std::_Rb_tree_node<std::pair<scene::physics::Position const, scene::physics::Physics_Object> > >&, unsigned long) (alloc_traits.h:464)
+    n1: 41257216 0x119108: std::_Rb_tree<scene::physics::Position, std::pair<scene::physics::Position const, scene::physics::Physics_Object>, std::_Select1st<std::pair<scene::physics::Position const, scene::physics::Physics_Object> >, std::less<scene::physics::Position>, std::allocator<std::pair<scene::physics::Position const, scene::physics::Physics_Object> > >::_M_get_node() (stl_tree.h:561)
+     n1: 41257216 0x1189D9: std::_Rb_tree_node<std::pair<scene::physics::Position const, scene::physics::Physics_Object> >* std::_Rb_tree<scene::physics::Position, std::pair<scene::physics::Position const, scene::physics::Physics_Object>, std::_Select1st<std::pair<scene::physics::Position const, scene::physics::Physics_Object> >, std::less<scene::physics::Position>, std::allocator<std::pair<scene::physics::Position const, scene::physics::Physics_Object> > >::_M_create_node<std::pair<scene::physics::Position, scene::physics::Physics_Object> >(std::pair<scene::physics::Position, scene::physics::Physics_Object>&&) (stl_tree.h:611)
+      n1: 41257216 0x118684: std::_Rb_tree_iterator<std::pair<scene::physics::Position const, scene::physics::Physics_Object> > std::_Rb_tree<scene::physics::Position, std::pair<scene::physics::Position const, scene::physics::Physics_Object>, std::_Select1st<std::pair<scene::physics::Position const, scene::physics::Physics_Object> >, std::less<scene::physics::Position>, std::allocator<std::pair<scene::physics::Position const, scene::physics::Physics_Object> > >::_M_emplace_equal<std::pair<scene::physics::Position, scene::physics::Physics_Object> >(std::pair<scene::physics::Position, scene::physics::Physics_Object>&&) (stl_tree.h:2410)
+       n1: 41257216 0x11843D: std::_Rb_tree_iterator<std::pair<scene::physics::Position const, scene::physics::Physics_Object> > std::multimap<scene::physics::Position, scene::physics::Physics_Object, std::less<scene::physics::Position>, std::allocator<std::pair<scene::physics::Position const, scene::physics::Physics_Object> > >::emplace<std::pair<scene::physics::Position, scene::physics::Physics_Object> >(std::pair<scene::physics::Position, scene::physics::Physics_Object>&&) (stl_multimap.h:492)
+        n2: 41257216 0x117D75: scene::physics::Physics_Object_List::add_object(scene::physics::Physics_Data) (physics_object_list.cpp:28)
+         n0: 41256992 0x10CDDA: main (main.cpp:53)
+         n0: 224 in 2 places, all below massif's threshold (1.00%)
+ n0: 1672221 in 699 places, all below massif's threshold (1.00%)
+ n1: 472368 0x52FB8E6: ??? (in /usr/lib/x86_64-linux-gnu/libX11.so.6.4.0)
+  n1: 472368 0x52FBFCD: _XimLocalOpenIM (in /usr/lib/x86_64-linux-gnu/libX11.so.6.4.0)
+   n1: 472368 0x52F39FF: _XimOpenIM (in /usr/lib/x86_64-linux-gnu/libX11.so.6.4.0)
+    n1: 472368 0x4983345: ??? (in /usr/lib/x86_64-linux-gnu/libSDL2-2.0.so.0.18.2)
+     n1: 472368 0x498AAFC: ??? (in /usr/lib/x86_64-linux-gnu/libSDL2-2.0.so.0.18.2)
+      n1: 472368 0x495C88D: ??? (in /usr/lib/x86_64-linux-gnu/libSDL2-2.0.so.0.18.2)
+       n1: 472368 0x48BC426: ??? (in /usr/lib/x86_64-linux-gnu/libSDL2-2.0.so.0.18.2)
+        n0: 472368 0x10CA81: main (main.cpp:25)
+#-----------
+snapshot=36
+#-----------
+time=4099323353
+mem_heap_B=44319421
+mem_heap_extra_B=3151795
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=37
+#-----------
+time=4183802820
+mem_heap_B=45234013
+mem_heap_extra_B=3217123
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=38
+#-----------
+time=4268275509
+mem_heap_B=46148493
+mem_heap_extra_B=3282443
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=39
+#-----------
+time=4394981503
+mem_heap_B=47518589
+mem_heap_extra_B=3380307
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=40
+#-----------
+time=4479446514
+mem_heap_B=48429933
+mem_heap_extra_B=3445403
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=41
+#-----------
+time=4563921702
+mem_heap_B=49341389
+mem_heap_extra_B=3510507
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=42
+#-----------
+time=4690632653
+mem_heap_B=50700061
+mem_heap_extra_B=3607555
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=43
+#-----------
+time=4775097417
+mem_heap_B=51591245
+mem_heap_extra_B=3671211
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=44
+#-----------
+time=4859572348
+mem_heap_B=52483101
+mem_heap_extra_B=3734915
+mem_stacks_B=0
+heap_tree=detailed
+n2: 52483101 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 50338512 0x1198A3: __gnu_cxx::new_allocator<std::_Rb_tree_node<std::pair<scene::physics::Position const, scene::physics::Physics_Object> > >::allocate(unsigned long, void const*) (new_allocator.h:127)
+  n1: 50338512 0x1194CF: allocate (allocator.h:185)
+   n1: 50338512 0x1194CF: std::allocator_traits<std::allocator<std::_Rb_tree_node<std::pair<scene::physics::Position const, scene::physics::Physics_Object> > > >::allocate(std::allocator<std::_Rb_tree_node<std::pair<scene::physics::Position const, scene::physics::Physics_Object> > >&, unsigned long) (alloc_traits.h:464)
+    n1: 50338512 0x119108: std::_Rb_tree<scene::physics::Position, std::pair<scene::physics::Position const, scene::physics::Physics_Object>, std::_Select1st<std::pair<scene::physics::Position const, scene::physics::Physics_Object> >, std::less<scene::physics::Position>, std::allocator<std::pair<scene::physics::Position const, scene::physics::Physics_Object> > >::_M_get_node() (stl_tree.h:561)
+     n1: 50338512 0x1189D9: std::_Rb_tree_node<std::pair<scene::physics::Position const, scene::physics::Physics_Object> >* std::_Rb_tree<scene::physics::Position, std::pair<scene::physics::Position const, scene::physics::Physics_Object>, std::_Select1st<std::pair<scene::physics::Position const, scene::physics::Physics_Object> >, std::less<scene::physics::Position>, std::allocator<std::pair<scene::physics::Position const, scene::physics::Physics_Object> > >::_M_create_node<std::pair<scene::physics::Position, scene::physics::Physics_Object> >(std::pair<scene::physics::Position, scene::physics::Physics_Object>&&) (stl_tree.h:611)
+      n1: 50338512 0x118684: std::_Rb_tree_iterator<std::pair<scene::physics::Position const, scene::physics::Physics_Object> > std::_Rb_tree<scene::physics::Position, std::pair<scene::physics::Position const, scene::physics::Physics_Object>, std::_Select1st<std::pair<scene::physics::Position const, scene::physics::Physics_Object> >, std::less<scene::physics::Position>, std::allocator<std::pair<scene::physics::Position const, scene::physics::Physics_Object> > >::_M_emplace_equal<std::pair<scene::physics::Position, scene::physics::Physics_Object> >(std::pair<scene::physics::Position, scene::physics::Physics_Object>&&) (stl_tree.h:2410)
+       n1: 50338512 0x11843D: std::_Rb_tree_iterator<std::pair<scene::physics::Position const, scene::physics::Physics_Object> > std::multimap<scene::physics::Position, scene::physics::Physics_Object, std::less<scene::physics::Position>, std::allocator<std::pair<scene::physics::Position const, scene::physics::Physics_Object> > >::emplace<std::pair<scene::physics::Position, scene::physics::Physics_Object> >(std::pair<scene::physics::Position, scene::physics::Physics_Object>&&) (stl_multimap.h:492)
+        n2: 50338512 0x117D75: scene::physics::Physics_Object_List::add_object(scene::physics::Physics_Data) (physics_object_list.cpp:28)
+         n0: 50338288 0x10CDDA: main (main.cpp:53)
+         n0: 224 in 2 places, all below massif's threshold (1.00%)
+ n0: 2144589 in 700 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=45
+#-----------
+time=4986282943
+mem_heap_B=53815229
+mem_heap_extra_B=3830067
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=46
+#-----------
+time=5070758035
+mem_heap_B=54703277
+mem_heap_extra_B=3893499
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=47
+#-----------
+time=5197472681
+mem_heap_B=56031261
+mem_heap_extra_B=3988355
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=48
+#-----------
+time=5281933452
+mem_heap_B=56904525
+mem_heap_extra_B=4050731
+mem_stacks_B=0
+heap_tree=detailed
+n2: 56904525 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 54759936 0x1198A3: __gnu_cxx::new_allocator<std::_Rb_tree_node<std::pair<scene::physics::Position const, scene::physics::Physics_Object> > >::allocate(unsigned long, void const*) (new_allocator.h:127)
+  n1: 54759936 0x1194CF: allocate (allocator.h:185)
+   n1: 54759936 0x1194CF: std::allocator_traits<std::allocator<std::_Rb_tree_node<std::pair<scene::physics::Position const, scene::physics::Physics_Object> > > >::allocate(std::allocator<std::_Rb_tree_node<std::pair<scene::physics::Position const, scene::physics::Physics_Object> > >&, unsigned long) (alloc_traits.h:464)
+    n1: 54759936 0x119108: std::_Rb_tree<scene::physics::Position, std::pair<scene::physics::Position const, scene::physics::Physics_Object>, std::_Select1st<std::pair<scene::physics::Position const, scene::physics::Physics_Object> >, std::less<scene::physics::Position>, std::allocator<std::pair<scene::physics::Position const, scene::physics::Physics_Object> > >::_M_get_node() (stl_tree.h:561)
+     n1: 54759936 0x1189D9: std::_Rb_tree_node<std::pair<scene::physics::Position const, scene::physics::Physics_Object> >* std::_Rb_tree<scene::physics::Position, std::pair<scene::physics::Position const, scene::physics::Physics_Object>, std::_Select1st<std::pair<scene::physics::Position const, scene::physics::Physics_Object> >, std::less<scene::physics::Position>, std::allocator<std::pair<scene::physics::Position const, scene::physics::Physics_Object> > >::_M_create_node<std::pair<scene::physics::Position, scene::physics::Physics_Object> >(std::pair<scene::physics::Position, scene::physics::Physics_Object>&&) (stl_tree.h:611)
+      n1: 54759936 0x118684: std::_Rb_tree_iterator<std::pair<scene::physics::Position const, scene::physics::Physics_Object> > std::_Rb_tree<scene::physics::Position, std::pair<scene::physics::Position const, scene::physics::Physics_Object>, std::_Select1st<std::pair<scene::physics::Position const, scene::physics::Physics_Object> >, std::less<scene::physics::Position>, std::allocator<std::pair<scene::physics::Position const, scene::physics::Physics_Object> > >::_M_emplace_equal<std::pair<scene::physics::Position, scene::physics::Physics_Object> >(std::pair<scene::physics::Position, scene::physics::Physics_Object>&&) (stl_tree.h:2410)
+       n1: 54759936 0x11843D: std::_Rb_tree_iterator<std::pair<scene::physics::Position const, scene::physics::Physics_Object> > std::multimap<scene::physics::Position, scene::physics::Physics_Object, std::less<scene::physics::Position>, std::allocator<std::pair<scene::physics::Position const, scene::physics::Physics_Object> > >::emplace<std::pair<scene::physics::Position, scene::physics::Physics_Object> >(std::pair<scene::physics::Position, scene::physics::Physics_Object>&&) (stl_multimap.h:492)
+        n2: 54759936 0x117D75: scene::physics::Physics_Object_List::add_object(scene::physics::Physics_Data) (physics_object_list.cpp:28)
+         n0: 54759712 0x10CDDA: main (main.cpp:53)
+         n0: 224 in 2 places, all below massif's threshold (1.00%)
+ n0: 2144589 in 700 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=49
+#-----------
+time=5403755742
+mem_heap_B=58144749
+mem_heap_extra_B=4139331
+mem_stacks_B=0
+heap_tree=peak
+n2: 58144749 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 56000112 0x1198A3: __gnu_cxx::new_allocator<std::_Rb_tree_node<std::pair<scene::physics::Position const, scene::physics::Physics_Object> > >::allocate(unsigned long, void const*) (new_allocator.h:127)
+  n1: 56000112 0x1194CF: allocate (allocator.h:185)
+   n1: 56000112 0x1194CF: std::allocator_traits<std::allocator<std::_Rb_tree_node<std::pair<scene::physics::Position const, scene::physics::Physics_Object> > > >::allocate(std::allocator<std::_Rb_tree_node<std::pair<scene::physics::Position const, scene::physics::Physics_Object> > >&, unsigned long) (alloc_traits.h:464)
+    n1: 56000112 0x119108: std::_Rb_tree<scene::physics::Position, std::pair<scene::physics::Position const, scene::physics::Physics_Object>, std::_Select1st<std::pair<scene::physics::Position const, scene::physics::Physics_Object> >, std::less<scene::physics::Position>, std::allocator<std::pair<scene::physics::Position const, scene::physics::Physics_Object> > >::_M_get_node() (stl_tree.h:561)
+     n1: 56000112 0x1189D9: std::_Rb_tree_node<std::pair<scene::physics::Position const, scene::physics::Physics_Object> >* std::_Rb_tree<scene::physics::Position, std::pair<scene::physics::Position const, scene::physics::Physics_Object>, std::_Select1st<std::pair<scene::physics::Position const, scene::physics::Physics_Object> >, std::less<scene::physics::Position>, std::allocator<std::pair<scene::physics::Position const, scene::physics::Physics_Object> > >::_M_create_node<std::pair<scene::physics::Position, scene::physics::Physics_Object> >(std::pair<scene::physics::Position, scene::physics::Physics_Object>&&) (stl_tree.h:611)
+      n1: 56000112 0x118684: std::_Rb_tree_iterator<std::pair<scene::physics::Position const, scene::physics::Physics_Object> > std::_Rb_tree<scene::physics::Position, std::pair<scene::physics::Position const, scene::physics::Physics_Object>, std::_Select1st<std::pair<scene::physics::Position const, scene::physics::Physics_Object> >, std::less<scene::physics::Position>, std::allocator<std::pair<scene::physics::Position const, scene::physics::Physics_Object> > >::_M_emplace_equal<std::pair<scene::physics::Position, scene::physics::Physics_Object> >(std::pair<scene::physics::Position, scene::physics::Physics_Object>&&) (stl_tree.h:2410)
+       n1: 56000112 0x11843D: std::_Rb_tree_iterator<std::pair<scene::physics::Position const, scene::physics::Physics_Object> > std::multimap<scene::physics::Position, scene::physics::Physics_Object, std::less<scene::physics::Position>, std::allocator<std::pair<scene::physics::Position const, scene::physics::Physics_Object> > >::emplace<std::pair<scene::physics::Position, scene::physics::Physics_Object> >(std::pair<scene::physics::Position, scene::physics::Physics_Object>&&) (stl_multimap.h:492)
+        n2: 56000112 0x117D75: scene::physics::Physics_Object_List::add_object(scene::physics::Physics_Data) (physics_object_list.cpp:28)
+         n0: 55999888 0x10CDDA: main (main.cpp:53)
+         n0: 224 in 2 places, all below massif's threshold (1.00%)
+ n0: 2144637 in 700 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=50
+#-----------
+time=6663505276
+mem_heap_B=58144941
+mem_heap_extra_B=4139331
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=51
+#-----------
+time=6775315963
+mem_heap_B=58145165
+mem_heap_extra_B=4139347
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=52
+#-----------
+time=7163085423
+mem_heap_B=58146189
+mem_heap_extra_B=4139355
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=53
+#-----------
+time=7223520156
+mem_heap_B=29803116
+mem_heap_extra_B=2161860
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=54
+#-----------
+time=7283954903
+mem_heap_B=2509948
+mem_heap_extra_B=212348
+mem_stacks_B=0
+heap_tree=empty

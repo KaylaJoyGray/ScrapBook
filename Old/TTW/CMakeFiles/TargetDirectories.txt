@@ -1,0 +1,15 @@
+/home/kayla/Projects/TTW/CMakeFiles/TTW.dir
+/home/kayla/Projects/TTW/CMakeFiles/edit_cache.dir
+/home/kayla/Projects/TTW/CMakeFiles/rebuild_cache.dir
+/home/kayla/Projects/TTW/CMakeFiles/list_install_components.dir
+/home/kayla/Projects/TTW/CMakeFiles/install.dir
+/home/kayla/Projects/TTW/CMakeFiles/install/local.dir
+/home/kayla/Projects/TTW/CMakeFiles/install/strip.dir
+/home/kayla/Projects/TTW/flecs-master/CMakeFiles/flecs.dir
+/home/kayla/Projects/TTW/flecs-master/CMakeFiles/flecs_static.dir
+/home/kayla/Projects/TTW/flecs-master/CMakeFiles/edit_cache.dir
+/home/kayla/Projects/TTW/flecs-master/CMakeFiles/rebuild_cache.dir
+/home/kayla/Projects/TTW/flecs-master/CMakeFiles/list_install_components.dir
+/home/kayla/Projects/TTW/flecs-master/CMakeFiles/install.dir
+/home/kayla/Projects/TTW/flecs-master/CMakeFiles/install/local.dir
+/home/kayla/Projects/TTW/flecs-master/CMakeFiles/install/strip.dir
