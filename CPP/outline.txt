@@ -1,0 +1,43 @@
+Start Menu:
+
+Start Game
+Load Game
+
+Start Game:
+
+Generate Galaxy
+Use Existing
+
+Generate Galaxy:
+
+Generate 2d vector with a width of 40 and a height of 40
+
+Each element will represent a sector
+
+Sectors generate differently depending on where they are in the map
+
+> 
+
+Each sector is another 2d vector with a width and height of 40
+
+Each element represents a system
+
+Types of sectors:
+
+empty/unknown
+gas cloud
+asteroid belt
+star cluster
+
+>
+
+Each system can have:
+
+empty space
+
+rouge planet
+
+1 or 2 stars
+
+planets and asteroids 
+

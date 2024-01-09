@@ -1,0 +1,142 @@
+:name=head
+:sever
+skull
+nose
+brain
+left eye
+right eye
+left ear
+right ear
+tongue
+larynx
+
+:name=neck
+:sever
+larynx
+neck bone
+
+:name=body
+spine
+sternum
+rib cage
+heart
+left lung
+right lung
+stomach
+liver
+spleen
+
+:name=left shoulder
+left shoulder bone
+left shoulder
+
+
+:name=left upper arm
+left humerus
+left bicep
+
+:name=left lower arm
+left radius
+left ulna
+left forearm 
+
+:name=left hand
+left thumb
+left middle finger
+left index finger
+left ring finger
+left pinky finger
+
+
+:name=right shoulder
+right shoulder bone
+right shoulder
+
+:name=right upper arm
+right humerus
+right bicep
+
+:name=right lower arm
+right radius
+right ulna
+right forearm 
+
+:name=right hand
+right thumb
+right middle finger
+right index finger
+right ring finger
+right pinky finger
+
+:name=left hip
+left hip bone
+left buttock
+
+:name=left upper leg
+left femur
+left quad
+
+:name=left lower leg
+left tibia
+left fibula
+left calf
+
+:name=left foot
+left big toe
+left toe
+left toe
+left toe
+left pinky toe
+
+:name=right hip
+right hip bone
+right buttock
+
+:name=right upper leg
+right femur
+right quad
+
+:name=right lower leg
+right tibia
+right fibula
+right calf
+
+:name=right foot
+right big toe
+right toe
+right toe
+right toe
+right pinky toe
+
+:limb = top
+:type = head
++neck
++head
+
+:limb = right arm
+:type = manipulation
++right shoulder
++right upper arm
++right lower arm
++right hand
+
+:limb = left arm
+:type = manipulation
++left shoulder
++left upper arm
++right lower arm
++right hand
+
+:limb = right leg
+:type = locomotion
++right hip
++right upper leg
++right lower leg
++right hand
+
+:limb = left leg
+:type = locomotion
++left hip
++left upper leg
++left lower leg
++left hand

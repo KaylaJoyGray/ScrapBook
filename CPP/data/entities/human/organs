@@ -1,0 +1,175 @@
+:name=brain
+:type=soft
+:mass=1.3
+:add_trait = cognition, 100
+:end
+
+:name=heart
+:type=soft
+:mass=0.3
+:add_trait =circulatory, 100
+:end
+
+:name=left lung
+:type = soft
+:mass = 1.1
+:add_trait =respiratory, 60
+:add_trait =voice, 10
+:end
+
+:name=right lung
+:type = soft
+:mass = 1.1
+:add_trait = respiratory, 60
+:add_trait = voice, 10
+:end
+
+:name=stomach
+:type = soft
+:mass = 1.0
+:add_trait =digestive, 50
+:add_trait=stomach, 50
+:end
+
+:name=liver
+:type = soft
+:mass = 1.2
+:add_trait =digestive, 50
+:add_trait =filtration, 20
+:end
+
+:name=spleen
+:type = soft
+:mass = 1.0
+:add_trait =immune, 100
+:end
+
+:name=left kidney
+:type = soft
+:mass = 0.3
+:add_trait =filtration, 40
+:end
+
+:name=right kidney
+:type = soft
+:mass = 0.3
+:add_trait=filtration, 40
+:end
+
+:name=left eye
+:type = soft
+:mass = 0.1
+:add_trait=vision, 60
+:end
+
+:name=right eye
+:type = soft
+:mass = 0.1
+:add_trait=vision, 60
+:end
+
+:name=larynx
+:type = soft
+:mass = 0.5
+:add_trait=voice, 60
+:end
+
+:name=left ear
+:type = soft
+:mass = 0.2
+:add_trait =hearing, 60
+:end
+
+:name=right ear
+:type = soft
+:mass = 0.2
+:add_trait=hearing, 60
+:end
+
+:name=tongue
+:type = muscle
+:mass = 0.3
+:add_trait=taste, 100
+:add_trait=voice, 20
+:end
+
+:name=nose
+:type = bony
+:mass = 0.1
+:add_trait=smell, 100
+:end
+
+:name=spine
+:type = bony
+:mass = 2.0
+:add_trait=nervous, 75
+:end
+
+:name=neck bone
+:type = bony
+:mass = 0.1
+:add_trait=nervous, 25
+:end
+
+:ptype=bony
+0.9, skull
+0.6, sternum
+1.8 ,ribcage
+1.0 ,left shoulder bone
+1.0 ,right shoulder bone
+0.5 ,left humerus
+0.5 ,right humerus
+0.2 ,left radius
+0.2 ,right radius
+0.3 ,left ulna
+0.3 ,right ulna
+1.0 ,left hip bone
+1.0 ,right hip bone
+0.5 ,left femur
+0.5 ,right femur
+0.3 ,left tibia
+0.3 ,right tibia
+0.2 ,left fibula
+0.2 ,right fibula
+:end
+
+:ptype =muscle
+3.0, left shoulder
+3.0 ,right shoulder
+2.0 ,left bicep
+2.0 ,right bicep
+1.3 ,left forearm
+1.3 ,right forearm
+4.0 ,left buttock
+4.0 ,right buttock
+3.0 ,left quad
+3.0 ,right quad
+3.0 ,left calf
+3.0 ,right calf
+:end
+
+:ptype = major digits
+0.1, left thumb
+0.1, right thumb
+0.1, left middle finger
+0.1, right middle finger
+0.1, left index finger
+0.1, right index finger
+0.1, left ring finger
+0.1 ,right ring finger
+0.1 ,left pinky finger
+0.1 ,right pinky finger
+:end
+
+:ptype =minor digits
+0.1, left big toe
+0.1, right big toe
+0.1 ,left toe
+0.1 ,right toe
+0.1 ,left toe
+0.1 ,right toe
+0.1 ,left toe
+0.1 ,right toe
+0.1 ,left pinky toe
+0.1 ,right pinky toe
+:end
