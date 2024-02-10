@@ -16,7 +16,41 @@
 using namespace std;
 
 class Solution {
+private:
+	map<int, int> fill_freq(vector<int>& nums) {
+		map<int, int> freq;
 
+		for (auto num : nums) {
+
+			auto it = freq.find(num);
+
+			if (it != freq.end()) {
+				it->second += 1;
+			} else {
+				freq.emplace(num, 1);
+			}
+		}
+
+		return freq;
+	}
+
+public:
+	vector<int> frequencySort(vector<int>& nums) {
+		auto freq = fill_freq(nums);
+
+		sort(nums.begin(), nums.end(), [&freq](int a, int b) {
+			auto it_a = freq.find(a);
+			auto it_b = freq.find(b);
+
+			if (it_a != freq.end() && it_b != freq.end()) {
+				if (it_a->second > it_b->second) {
+					return true;
+				}
+			}
+
+			return (a < b);
+		});
+	}
 };
 
 void reduce (int &a, int &b, int in = 9) {
@@ -41,41 +75,6 @@ int main() {
 	// read an integer
 	int i;
 	cin >> i;
-
-	int a, b;
-
-	while (i--) {
-		cin >> a;
-		cin >> b;
-
-		reduce(a, b);
-
-		while (true) {
-			// a moves
-			if (b > a) {
-				swap(a, b);
-			}
-
-			if (a > 0) {
-				--a;
-			} else {
-				cout << "Bob" << endl;
-				break;
-			}
-
-			// b moves
-			if (a > b) {
-				swap(a, b);
-			}
-
-			if (b > 0) {
-				--b;
-			} else {
-				cout << "Alice" << endl;
-				break;
-			}
-		}
-	}
 
 	return 0;
 }
